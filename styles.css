@@ -1,0 +1,21 @@
+#player {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  transition: 0.2s;
+}
+
+.x-wall {
+  height: 35px;
+  width: 100px;
+  background-color: grey;
+  border: solid black 0.1px;
+}
+
+.x-wall-1 {
+  transform: translate(250px, 250px);
+}
+
+.x-wall-2 {
+  transform: translate(250px, 300px);
+}
