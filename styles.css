@@ -3,19 +3,15 @@
   width: 25px;
   background-color: red;
   transition: 0.2s;
+  position: absolute;
 }
 
-.x-wall {
-  height: 35px;
-  width: 100px;
-  background-color: grey;
+.wall {
+  width: 25px;
+  height: 25px;
+  background-color: black;
   border: solid black 0.1px;
+  position: absolute;
 }
 
-.x-wall-1 {
-  transform: translate(250px, 250px);
-}
 
-.x-wall-2 {
-  transform: translate(250px, 300px);
-}
